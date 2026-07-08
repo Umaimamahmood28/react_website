@@ -1,24 +1,29 @@
+import { useState } from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
+import "./Layout.css";
 
 function Layout({ children }) {
-return (
-    <div style={{ display: "flex", minHeight: "100vh" }}>
 
-    <Sidebar />
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
-    <div style={{ flex: 1 }}>
+  return (
+    <div className="layout">
+
+      <Sidebar open={sidebarOpen} />
+
+      <div className="main-content">
 
         <Header />
 
-        <div style={{ padding: "20px" }}>
-        {children}
+        <div className="page-content">
+          {children}
         </div>
 
-    </div>
+      </div>
 
     </div>
-);
+  );
 }
 
 export default Layout;

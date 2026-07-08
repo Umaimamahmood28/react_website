@@ -1,20 +1,28 @@
+import "./Header.css";
+import { FaBell } from "react-icons/fa";
+
 function Header() {
 return (
-    <div
-    style={{
-        background: "#f1f5f9",
-        padding: "20px",
-        display: "flex",
-        justifyContent: "space-between",
-    }}
-    >
-    <h2>Admin Dashboard</h2>
+    <div className="header">
 
-    <div>
-        🔔 👤
+    <div className="search-box">
+        <input
+        type="text"
+        placeholder="Search..."
+        />
     </div>
+
+    <div className="profile">
+        <FaBell />
+        <img
+        src="https://i.pravatar.cc/100"
+        alt="profile"
+        />
+
     </div>
-);
+
+    </div>
+  );
 }
 
 export default Header;
