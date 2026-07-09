@@ -62,3 +62,30 @@ npm run dev
 **Umm e Ummaima**
 
 Frontend Development Intern
+
+
+
+
+
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](assets/screenshots/Dashboard.png)
+
+### Inventory
+
+![Inventory](assets/screenshots/Inventory.png)
+
+### Settings
+
+![Settings](assets/screenshots/Settings.png)
+
+### ipad
+
+![Settings](assets/screenshots/ipad.png)
+
+### Mobile View
+
+![Mobile](assets/screenshots/Mobile.png)
