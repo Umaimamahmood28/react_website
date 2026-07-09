@@ -89,3 +89,10 @@ Frontend Development Intern
 ### Mobile View
 
 ![Mobile](assets/screenshots/Mobile.png)
+
+
+
+
+
+
+
