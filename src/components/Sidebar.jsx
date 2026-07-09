@@ -1,28 +1,21 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./slidebar.css";
 
-function Sidebar() {
+function Sidebar({ open, onClose }) {
   return (
-    <div className="sidebar">
-
+    <div className={`sidebar ${open ? "show" : ""}`}>
       <h2>Dashboard</h2>
-
       <ul>
-
         <li>
-          <Link to="/">Overview</Link>
+          <NavLink to="/" onClick={onClose}>Overview</NavLink>
         </li>
-
         <li>
-          <Link to="/inventory">Inventory</Link>
+          <NavLink to="/inventory" onClick={onClose}>Inventory</NavLink>
         </li>
-
         <li>
-          <Link to="/settings">Settings</Link>
+          <NavLink to="/settings" onClick={onClose}>Settings</NavLink>
         </li>
-
       </ul>
-
     </div>
   );
 }

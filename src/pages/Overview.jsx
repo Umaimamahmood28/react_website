@@ -45,45 +45,47 @@ function Overview() {
         Recent Activity
       </h2>
 
-      <table className="activity-table">
+      <div className="table-wrapper">
+        <table className="activity-table">
 
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Status</th>
-          </tr>
-        </thead>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Status</th>
+            </tr>
+          </thead>
 
-        <tbody>
+          <tbody>
 
-          <tr>
-            <td>Ali</td>
-            <td>ali@gmail.com</td>
-            <td className="active">Active</td>
-          </tr>
+            <tr>
+              <td>Ali</td>
+              <td>ali@gmail.com</td>
+              <td className="active">Active</td>
+            </tr>
 
-          <tr>
-            <td>Ahmed</td>
-            <td>ahmed@gmail.com</td>
-            <td className="pending">Pending</td>
-          </tr>
+            <tr>
+              <td>Ahmed</td>
+              <td>ahmed@gmail.com</td>
+              <td className="pending">Pending</td>
+            </tr>
 
-          <tr>
-            <td>Sara</td>
-            <td>sara@gmail.com</td>
-            <td className="active">Active</td>
-          </tr>
+            <tr>
+              <td>Sara</td>
+              <td>sara@gmail.com</td>
+              <td className="active">Active</td>
+            </tr>
 
-          <tr>
-            <td>Fatima</td>
-            <td>fatima@gmail.com</td>
-            <td className="inactive">Inactive</td>
-          </tr>
+            <tr>
+              <td>Fatima</td>
+              <td>fatima@gmail.com</td>
+              <td className="inactive">Inactive</td>
+            </tr>
 
-        </tbody>
+          </tbody>
 
-      </table>
+        </table>
+      </div>
 
     </div>
   );
