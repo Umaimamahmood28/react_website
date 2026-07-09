@@ -1,16 +1,64 @@
-# React + Vite
+# Synexus Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Admin Dashboard developed using React and Vite as part of my Frontend Development Internship.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive Dashboard
+- Collapsible Sidebar
+- Header with Search Bar
+- Dashboard Overview
+- Inventory Management Page
+- Settings Page
+- React Router Navigation
+- Mobile Responsive Design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- React Router DOM
+- React Icons
+- CSS3
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── Sidebar.jsx
+│   └── Layout.jsx
+├── pages/
+│   ├── Overview.jsx
+│   ├── Inventory.jsx
+│   └── Settings.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Umaimamahmood28/react_website.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## Author
+
+**Umm e Ummaima**
+
+Frontend Development Intern
