@@ -18,45 +18,33 @@ function AddProduct() {
     e.preventDefault();
 
     const newErrors = {};
-
-    // Product Name Validation
     if (!productName.trim()) {
       newErrors.productName = "Product Name is required";
     } else if (productName.trim().length < 3) {
       newErrors.productName =
         "Product Name must be at least 3 characters";
     }
-
-    // Price Validation
     if (!price) {
       newErrors.price = "Price is required";
     } else if (Number(price) <= 0) {
       newErrors.price = "Price must be greater than 0";
     }
-
-    // Category Validation
     if (!category) {
       newErrors.category = "Please select a category";
     }
-
-    // Quantity Validation
     if (!quantity) {
       newErrors.quantity = "Quantity is required";
     } else if (Number(quantity) <= 0) {
       newErrors.quantity = "Quantity must be greater than 0";
     }
 
-    // Status Validation
     if (!status) {
       newErrors.status = "Please select product status";
     }
-
-    // Date Validation
     if (!manufacturingDate) {
       newErrors.manufacturingDate = "Please select a date";
     }
 
-    // Description Validation
     if (!description.trim()) {
       newErrors.description = "Description is required";
     } else if (description.trim().length < 10) {
@@ -70,7 +58,6 @@ function AddProduct() {
       return;
     }
 
-    // Console Output
     console.log({
       productName,
       price,
@@ -82,10 +69,8 @@ function AddProduct() {
       description,
     });
 
-    // Success Message
     setSuccessMessage("Product added successfully!");
 
-    // Reset Form
     setProductName("");
     setPrice("");
     setCategory("");

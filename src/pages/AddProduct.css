@@ -103,10 +103,6 @@ input[type="file"] {
   margin-bottom: 20px;
   font-weight: 600;
 }
-
-
-
-
 @media (max-width: 768px) {
 
   .add-product {
