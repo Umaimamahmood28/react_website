@@ -1,12 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-
 import Layout from "./components/Layout";
-
 import Overview from "./pages/Overview";
 import Inventory from "./pages/Inventory";
 import Settings from "./pages/Settings";
 import AddProduct from "./pages/AddProduct";
-
+import Users from "./pages/Users";
 
 function App() {
   return (
@@ -28,15 +26,24 @@ function App() {
           </Layout>
         }
       />
-      <Route
-      path="/add-product"
-      element={
-        <Layout>
-          <AddProduct />
-        </Layout>
-      }
-    />
 
+      <Route
+        path="/add-product"
+        element={
+          <Layout>
+            <AddProduct />
+          </Layout>
+        }
+      />
+
+      <Route
+        path="/users"
+        element={
+          <Layout>
+            <Users />
+          </Layout>
+        }
+      />
 
       <Route
         path="/settings"

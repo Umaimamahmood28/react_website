@@ -23,6 +23,9 @@ function Sidebar({ open }) {
         <li>
           <Link to="/settings">Settings</Link>
         </li>
+        <li>
+          <Link to="/users">Users</Link>
+        </li>
       </ul>
 
     </div>
