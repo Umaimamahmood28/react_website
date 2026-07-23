@@ -25,6 +25,18 @@ A responsive Admin Dashboard developed using React and Vite as part of my Fronte
 - File Upload
 - Responsive Form
 
+## Week 3 Learning Outcomes
+
+- Working with REST APIs
+- React useEffect Hook
+- React useState Hook
+- Search Functionality
+- Sorting Data
+- Pagination
+- State Management
+- Responsive Design
+- UI/UX Improvements
+- Component-Based Architecture
 
 ## Technologies Used
 
@@ -38,6 +50,7 @@ A responsive Admin Dashboard developed using React and Vite as part of my Fronte
 
 ```
 src/
+│
 ├── components/
 │   ├── Header.jsx
 │   ├── Sidebar.jsx
@@ -46,8 +59,9 @@ src/
 ├── pages/
 │   ├── Overview.jsx
 │   ├── Inventory.jsx
-│   ├── Settings.jsx
-│   └── AddProduct.jsx
+│   ├── AddProduct.jsx
+│   ├── Users.jsx
+│   └── Settings.jsx
 │
 ├── App.jsx
 └── main.jsx
